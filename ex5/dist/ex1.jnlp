@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ex1.jnlp">
+  <information>
+    <title>ex1</title>
+    <vendor>tsuyo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ex1.jar" size="5046" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="ex1.Ex1"  name="ex1" />
+  <update check="always"/>
+</jnlp>
